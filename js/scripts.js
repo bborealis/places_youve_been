@@ -48,10 +48,10 @@ $(document).ready(function() {
 
         $("ul#journeys").text("");
         newDestination.journeys.forEach(function(journey) {
-            $("ul#journeys").append("<li>" + journey.spot + "</li>" +
-                                    "<li>" + journey.landmark + "</li>" +
-                                    "<li>" + journey.date + "</li>" +
-                                    "<li>" + journey.notes + "</li>");
+            $("ul#journeys").append("<li>" + "Spot: " + journey.spot + "</li>" +
+                                    "<li>" + "Landmark: " + journey.landmark + "</li>" +
+                                    "<li>" + "Date: " + journey.date + "</li>" +
+                                    "<li>" + "Notes: " + journey.notes + "</li>");
         });
 
     });
@@ -65,4 +65,6 @@ $(document).ready(function() {
 
 
     });
+
+    
 });

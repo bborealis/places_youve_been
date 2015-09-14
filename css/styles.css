@@ -10,3 +10,18 @@
 .contact:hover {
     text-decoration: underline;
 }
+
+body {
+    background-image: url("beach.jpg");
+    height: 100%;
+    /*width: 100%;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FF33CC;
+
+}
+
+html {
+    height: 100%;
+
+}
